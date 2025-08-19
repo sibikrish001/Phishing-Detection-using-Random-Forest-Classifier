@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHISHING DETECTION</title>
+    <style>
+        h1 {
+            position: fixed;
+            top: 20px;
+            left: 420px;
+            font-size: 50px;
+            font-family: Copperplate, Papyrus, fantasy;
+            color: rgb(6, 255, 6);
+        }
+
+        body {
+            background-image: url("img.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        form {
+            position: fixed;
+            top: 190px;
+            left: 660px;
+            font-size: 25px;
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+        div{
+        position: fixed; 
+            top: 460px;
+            left: 660px;
+            color: rgb(193, 255, 6);
+        }
+    </style>
+</head>
+<body>
+    <h1>PHISHING DETECTION</h1>
+    <div id=input_form></div>
+    <center><img src="{{u_img}}" position:fixed  height=100% width=100%></center>
+    <form action="." method="post">
+        <input id="text_box" type="text" name="user_input" placeholder="URL here!">
+        <br>
+        <br>
+        <input id="button" type="submit" value="check">
+    </form>
+    </div>
+    <br>
+    <br>
+    <div id=output_disp>
+        <h2>Result:</h2>
+        <h3 >{{Result}}</h3>
+     </div>
+    
+</body>
+</html>

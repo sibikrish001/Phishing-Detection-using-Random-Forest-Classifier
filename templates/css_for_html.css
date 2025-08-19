@@ -1,0 +1,23 @@
+h1{
+    position: fixed;
+    top: 20px;
+    left: 420px;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+body {
+    background-image: url("img.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    font-family: Arial, sans-serif;
+    color: #fff; 
+}
+
+form {
+    position: fixed;
+    top:190px;
+    left: 660px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
